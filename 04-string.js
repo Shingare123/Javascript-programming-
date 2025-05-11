@@ -44,3 +44,28 @@ var trimResult = day.trim();
 console.log(`After trim: ${trimResult.length}`);
 var totalRemovedSpaces = day.length - trimResult.length;
 console.log(`Total Spaces removed after trim() is: ${totalRemovedSpaces}`);
+
+console.log(`========== toString() ===============`);
+var age=22;
+console.log(`Age :${age}, and its type: ${typeof age}`);
+var ageStr=age.toString();
+console.log(`Age :${ageStr}, and its type: ${typeof ageStr}`);
+
+console.log(`========== includes() ===============`);
+var vowels="aeiou";
+var isOAvailable=vowels.includes("o");
+console.log(isOAvailable);
+
+console.log(`========== slice() ===============`);
+var greet="Good Morning";
+var sliceFive=greet.slice(5);
+console.log(sliceFive);
+var sliceTwoToTen=greet.slice(2,10);
+console.log(sliceTwoToTen);
+
+console.log(`========== split() ===============`);
+var greet="Good morning my buddy";
+var words= greet.split(" ");
+console.log(words);
+
+
