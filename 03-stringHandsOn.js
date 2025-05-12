@@ -18,6 +18,3 @@ console.log(`Substring from index22: ${strAfterTrim.substring(22)}`);
 console.log(`Is string ends with "up":${strAfterTrim.includes("up")}`);
 console.log(`Is string starts with "Hey":${strAfterTrim.includes("Hey")}`);
 
-
-
-
