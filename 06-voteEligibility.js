@@ -1,3 +1,4 @@
+console.log("========Check vote eligibility===========");
 var voteEligible = function(age) {
   if (age === null || age <= 0 || age > 130) {
     console.log(`Given Input age: ${age} --> Invalid data`);

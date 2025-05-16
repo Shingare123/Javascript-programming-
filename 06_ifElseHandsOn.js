@@ -1,3 +1,5 @@
+console.log("========Check EVEN or ODD===========");
+
 // 1. Check EVEN or ODD
 var checkEvenOdd = function(num) {
   if (num % 2 === 0) {
@@ -11,7 +13,9 @@ checkEvenOdd(45);
 checkEvenOdd(70);
 checkEvenOdd(67);
 checkEvenOdd(98);
+console.log("\n");
 
+console.log("========Check voting eligibility===========");
 // 2. Check voting eligibility
 var checkVotingEligibility = function(age) {
   if (age > 18) {
@@ -25,7 +29,8 @@ checkVotingEligibility(18);
 checkVotingEligibility(20);
 checkVotingEligibility(17);
 checkVotingEligibility(40);
-
+console.log("\n");
+console.log("========Check String > 10 characters===========");
 // 3. String > 10 characters
 var checkStringLength = function(str) {
   if (str.length > 10) {
@@ -36,7 +41,8 @@ var checkStringLength = function(str) {
 };
 
 checkStringLength("JavaScript - ES6");
-
+console.log("\n");
+console.log("========Check if string starts with 'Java'===========");
 // 4. Check if string starts with "Java"
 var startsWithJava = function(str) {
   if (str.startsWith("Java")) {
