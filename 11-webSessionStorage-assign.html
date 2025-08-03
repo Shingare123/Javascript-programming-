@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ✅ Add data to sessionStorage
+sessionStorage.setItem("name", "Swapnil Shinagare");
+sessionStorage.setItem("city", "Hyderabad");
+sessionStorage.setItem("pinCode", "500081");
+sessionStorage.setItem("district", "Hyderabad");
+
+// ✅ Remove the item with key 'city'
+sessionStorage.removeItem("city");
+
+// ✅ (Optional) Log all remaining items
+console.log("Name:", sessionStorage.getItem("name"));
+console.log("City:", sessionStorage.getItem("city")); // Will be null
+console.log("Pin Code:", sessionStorage.getItem("pinCode"));
+console.log("District:", sessionStorage.getItem("district"));
+
+    </script>
+</body>
+</html>
